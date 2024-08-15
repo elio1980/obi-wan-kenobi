@@ -99,6 +99,86 @@ public class Estudio(){
 		ExpectedCondition<WebElement> condition = ExpectedConditions.visibilityOf(By.id("elementId"));
 		WebElement ele3 = fw.until(condition);
 		
+		WebElement ele = driver.findElement(By.id(null));
+		WebDriverWait ew = new WebDriverWait(driver, Duration.ofSeconds(0));
+		ew.wait(until.expectedCondition.visibilityof(ele));
+		
+		Wait<WebDriver> fw = new FluentWait<WebDriver>(driver)
+				.withTimeout(Duration.ofSeconds(0))
+				.pollingEvery(Duration.ofSeconds(0))
+				.ignoring(NoSuchElementException.class);
+		
+		ExpectedCondition<WebElement> condition1 = ExpectedCondition.visibilityOf(By.id(null));
+		WebElement ele4 = fw.until(condition1);
+		
+		EXpectedCondition<WebElement> condition1 = ExpectedCondition
+		)
+		Wait<WebDriver> fw2 = new fluentWait<WebDriver>(driver)
+		.withtimeut(Duration.ofSeconds(0))
+		.polling(3)
+		.ingnoreing(notsuchelementexception.class)
+		
+		ExpectedCondtion<WebElement> condition = ExpectedCondition.visibilityOf(By.id(null));
+		WebElement ele = fw2.until(condition);
+		
+		
+		Wait<WebDriver> fw = new fluentWait<WebDriver>(driver)
+				.withtimeouts(Duration.ofSeconds(0))
+				.polling(3)
+				.ignore(notSuchElementException);
+		
+		WebElement<WebDriver> condition = visibilityOfElement(By.id(null));
+		WebElement ele = condition.until(fw);
+		
+		
+		Wait<WebDriver> fw = new fluentWait<WebDriver>(driver)
+				.withTimeOut(Duration.ofSeconds(0))
+				.polling(3)
+				.ignore(notSuchElementException);
+		
+		ExpectedContion <WebElement> condition = ExpectedCondtion.visibilityOf(By.id(null));
+		WebElement ele = fw.until(condition);
+		
+		
+		
+		Wait<WebDriver> fw = new fluentWait(driver)
+				.withTimeOuts(DurationOf.seconds)
+				.pollingEvery(3)
+				.ignore(NotSuchElementEXception.class);
+		
+		ExpectedCondtion<WebElement> condition = ExpectedCondition.visibilityOf(By.id(null));
+		WebElement ele = fw.until(condition);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
 		
 		
 		
