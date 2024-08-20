@@ -20,7 +20,7 @@ public class Register_Page {
 	By PASSWORD = By.xpath("//*[@id=\"password\"]");
 	By CONFIRM_PASSWORD = By.name("confirmPassword");
 	By REGISTER_BUTTON_2 = By.xpath("/html/body/my-app/div/main/my-register/div/div/form/button");
-	By BUGGY_LINK = By.xpath("/html/body/my-app/header/nav/div/a");
+	By BUGGY_LINK = By.class("/html/body/my-app/header/nav/div/a");
 
 	public boolean register_user(WebDriver driver) {
 

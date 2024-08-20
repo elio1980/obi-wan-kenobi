@@ -50,8 +50,9 @@ public class WaitsTest {
 				.pollingEvery(Duration.ofSeconds(2)) 			
 				.ignoring(NoSuchElementException.class);
 		
-		ExpectedCondition<WebElement> condition = ExpectedConditions.visibilityOfElementLocated(By.id("elementId"));
+		ExpectedCondition<WebElement> condition = ExpectedConditions.visibilityOfElementLocated(By.id("elementID"));
 		
+		@SuppressWarnings("unused")
 		WebElement element = fw.until(condition);
 		
 	}

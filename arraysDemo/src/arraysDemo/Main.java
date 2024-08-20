@@ -252,7 +252,6 @@ import java.util.Scanner;
 //	}
 //}
 
-
 //invertir String con methodo Scanner
 //public class Main{
 //	
@@ -275,29 +274,24 @@ import java.util.Scanner;
 //	}
 //}
 
-public class Main{
-	
+public class Main {
+
 	public static void main(String[] args) {
-		
+
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		int numeros[] = new int[9];
-		
-		
-		for(int i = 0; i < 9; i++) {
-		System.out.println("Ingresa el numero: ");
-		numeros[i] = sc.nextInt();		
-		
-		}
-		
-		System.out.println("Los valores del array son: " + numeros);
 
-		
-		
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println("Ingresa el numero: ");
+			numeros[i] = sc.nextInt();
+		}
+
+		System.out.println("Los valores del array son: ");
+
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println(numeros[i]);
+
+		}
 	}
 }
-
-
-
-
-
